@@ -1,0 +1,40 @@
+# ---- 构建产物 ----
+target
+out
+gen
+build
+dist
+*.class
+*.jar
+*.war
+
+# ---- 日志与运行时目录 ----
+*.log
+logs
+job
+
+# ---- IntelliJ IDEA ----
+.idea
+*.iml
+*.ipr
+*.iws
+
+# ---- Eclipse ----
+.settings
+.project
+.classpath
+
+# ---- 编辑器 / 操作系统 ----
+.vscode
+*.swp
+*.swo
+*.orig
+.DS_Store
+Thumbs.db
+
+# ---- 本地配置覆盖（含密钥，禁止提交） ----
+application-local-*.yml
+*-local-override.properties
+
+# ---- 模板与缓存 ----
+templates
